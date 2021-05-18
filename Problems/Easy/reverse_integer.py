@@ -34,8 +34,7 @@ class Solution:
     def reverse(self, x: int) -> int:
         ma = 2 ** 31 - 1
         mi = -(2 ** 31)
-        chars = list(str(x)) # x = 123, chars = ['1', '2', '3']
-        operator = ''
+        chars = list(str(x))
         if chars[0] == '-':
             operator = chars.pop(0)
             res = int(operator + ''.join(list(reversed(chars))))
