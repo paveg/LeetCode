@@ -36,7 +36,10 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"ms-vscode-remote.remote-containers"
+		"ms-vscode-remote.remote-containers",
+		"k--kato.intellij-idea-keybindings",
+		"leetcode.vscode-leetcode",
+		"bat67.leetcode-extension-pack"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
