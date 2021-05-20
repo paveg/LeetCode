@@ -27,7 +27,6 @@ class Solution:
         caseLength = len(listed)
         index = 0
         if caseLength == 2 and ''.join(listed) in mapping:
-            print(''.join(listed))
             return mapping[''.join(listed)]
 
         while index < caseLength:
