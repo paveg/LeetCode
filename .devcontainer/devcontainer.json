@@ -5,9 +5,9 @@
 	"build": {
 		"dockerfile": "Dockerfile",
 		"context": "..",
-		"args": {
+		"args": { 
 			// Update 'VARIANT' to pick a Python version: 3, 3.6, 3.7, 3.8, 3.9
-			"VARIANT": "3.9",
+			"VARIANT": "3",
 			// Options
 			"INSTALL_NODE": "true",
 			"NODE_VERSION": "lts/*"
@@ -15,7 +15,7 @@
 	},
 
 	// Set *default* container specific settings.json values on container create.
-	"settings": {
+	"settings": { 
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"python.pythonPath": "/usr/local/bin/python",
 		"python.languageServer": "Pylance",
@@ -36,7 +36,6 @@
 	"extensions": [
 		"ms-python.python",
 		"ms-python.vscode-pylance",
-		"ms-vscode-remote.remote-containers",
 		"k--kato.intellij-idea-keybindings",
 		"leetcode.vscode-leetcode",
 		"bat67.leetcode-extension-pack"
@@ -46,7 +45,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": "sudo apt update && sudo apt install -y git",
+	// "postCreateCommand": "pip3 install --user -r requirements.txt",
 
 	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "vscode"
