@@ -9,7 +9,6 @@ class Solution:
     def isValid(self, s: str) -> bool:
         # bracketPair maps opening brackets to their closing counterparts
         bracketPair = dict(("()", "[]", "{}"))
-        print(bracketPair)
 
         # stack keeps track of the opening brackets we've seen so far
         stack = []
