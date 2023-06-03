@@ -1,9 +1,0 @@
-{
-  "leetcode.filePath": {
-    "default": {
-      "folder": "${difficulty}",
-      "filename": "${id}.${kebab-case-name}.${ext}"
-    }
-  },
-  "leetcode.defaultLanguage": "python3"
-}
