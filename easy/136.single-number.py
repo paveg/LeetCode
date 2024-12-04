@@ -9,11 +9,11 @@ class Solution:
     def singleNumber(self, nums: List[int]) -> int:
         ans = {}
         res = 0
-        for i in range(len(nums)):
-            if nums[i] in ans:
-                ans[nums[i]] += 1
-            elif nums[i] not in ans:
-                ans[nums[i]] = 1
+        for num in nums:
+            if num in ans:
+                ans[num] += 1
+            elif num not in ans:
+                ans[num] = 1
         for k, v in ans.items():
             if v == 1:
                 res = k
