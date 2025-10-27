@@ -20,8 +20,10 @@ func isValid(s string) bool {
 			if len(stack) == 0 || stack[len(stack)-1] != open {
 				return false
 			}
+			// Pop the last element
 			stack = stack[:len(stack)-1]
 		} else {
+			// Push the current element
 			stack = append(stack, char)
 		}
 	}
