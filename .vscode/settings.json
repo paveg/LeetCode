@@ -1,5 +1,7 @@
 {
   "cSpell.words": [
     "leetcode"
-  ]
+  ],
+  "go.buildTags": "local",
+  "go.testTags": "local",
 }
