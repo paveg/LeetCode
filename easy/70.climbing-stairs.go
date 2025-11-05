@@ -33,7 +33,7 @@ package code
 
 // bottom-up approach
 // O(n) time and O(n) space
-func climbStairsTab(n int) int {
+func climbStairs(n int) int {
 	if n <= 2 {
 		return n
 	}
@@ -47,10 +47,6 @@ func climbStairsTab(n int) int {
 	}
 
 	return dp[n]
-}
-
-func climbStairs(n int) int {
-	return climbStairsTab(n)
 }
 
 // @lc code=end
