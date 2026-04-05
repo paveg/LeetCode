@@ -1,6 +1,7 @@
 {
   "cSpell.words": [
-    "leetcode"
+    "leetcode",
+    "nums"
   ],
   "go.buildTags": "local",
   "go.testTags": "local",
